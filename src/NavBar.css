@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@500&display=swap');
+
+.NavBar
+{
+    position: fixed;
+    z-index: 10;
+}
+@media (min-width: 640px) {
+    .NavBar
+    {
+        margin: 0;
+        width: 100%;
+        height: 10vh;
+        min-height: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center ;
+        background-color: #164987;
+        box-shadow: -10px -10px blue;
+    }
+}
+
+.NavBar > .Menu
+{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    color: white
+}
+
+.NavBar > .Menu > *:hover
+{
+    color: red;
+    cursor: pointer;
+}
+
+@media (max-width: 640px) {
+    .NavBar
+    {
+        width: 100%;
+        text-align: center;
+        align-items: center ;
+        background-color: #164987;
+        padding-bottom: 1vh;
+    }
+    .NavBar > .Menu
+    {
+        display: none
+    }
+}
+
+.Icons > *:hover
+{
+    cursor: pointer;
+}
+
+.Icons > a > *
+{
+    color: white;
+}
+
+.WelcomePage > .NavBar > h1
+{
+    color:white;
+    font-family: 'Baloo Paaji 2', cursive;
+    font-size: 2em;
+    margin: 0;
+    padding: 10px;
+    margin-left: 15px;
+}

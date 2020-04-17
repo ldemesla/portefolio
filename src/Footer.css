@@ -1,0 +1,20 @@
+.Footer
+{
+    background-color: #164987;
+}
+.Icons
+{
+    margin: 0;
+    width: 50%;
+    margin-left: 25%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    background-color: #164987;
+}
+
+.Icons > *
+{
+    transform: scale(1.8);
+}
