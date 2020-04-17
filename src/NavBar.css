@@ -5,7 +5,7 @@
     position: fixed;
     z-index: 10;
 }
-@media (min-width: 640px) {
+@media (min-width: 900px) {
     .NavBar
     {
         margin: 0;
