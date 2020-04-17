@@ -6,7 +6,7 @@
     position: relative;
 }
 
-@media (min-width: 850px) {
+@media (min-width: 1000px) {
     .Carousel > .Card > .Text
     {
         margin-left: 1%;
@@ -81,7 +81,7 @@
     padding-left: 1vw;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 1000px) {
     .Card
     {
         flex-flow: column;

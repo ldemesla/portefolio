@@ -92,7 +92,7 @@
     justify-content: center;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 1000px) {
     .Content > .Section > .Page
     {
         width: 80%;
