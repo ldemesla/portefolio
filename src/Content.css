@@ -99,6 +99,10 @@
         margin-left: 10%;
         text-align: justify;
     }
+    .Page > h3 
+    {
+        font-size: 0.5em;
+    }
 }
 
 .Skills > h1
