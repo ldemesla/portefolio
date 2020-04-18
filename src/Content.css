@@ -1,23 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+
 
 .Content
 {
     margin: 0;
+    background-color: #72a7fc;
 }
 
 .Section
 {
     margin: 0;
-    background-color:#72a7fc;
-    padding-top: 8vh;
-    padding-bottom: 3vh;
-    min-height: 95vh;
+    background-color:white;
+    padding-top: 5vh;
+    min-height: 65vh;
 }
 
 .Content > .Section > .Page
 {
-    padding-top: 10vh;
-    min-height: 80vh;
     position: relative;
     margin-left: 30%;
     width: 40%;
@@ -28,19 +28,23 @@
 
 
 .Page > .Text > h1{
-    font-size: 5em;
-    margin-bottom: 75px;
+    font-size: 3.5em;
+    width: 100%;
+    background-color: #164987;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10vh;
+    padding: 10px;
+    border: 1px solid gray;
     text-align: center;
-    background-color: white;
-    color: #72a7fc;
-    margin: 0;
-    border: 1px solid gray
 }
-
-.Page > .Text > h2
+.Page > .Text > .TextWrapper> h3
 {
-    font-size: 2em;
-    letter-spacing: 2px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    padding-left: 1vw;
 }
 
 .Projects
@@ -53,6 +57,8 @@
     font-family: 'Barlow Condensed', sans-serif;
     color: white;
     background-color: #fcfcfc;
+    margin: 0;
+    padding-bottom: 5vh;
 }
 
 .Projects > h1
@@ -70,38 +76,56 @@
 
 .Skills
 {
-    padding-top: 10vh;
-    min-height: 90vh;
+    margin: 0;
     background-color: #72a7fc;
     position: relative;
     text-align: center;
+    padding-top: 10vh;
+    min-height: 82vh;
 }
 
 .ProfileImage
 {
-    margin-bottom: 3vh;
-    border-radius: 50%;
     background-color: #d9d9d9;
     background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);
+    width: 12vw;
+    margin-right: 2vw;
+    border-radius: 50%;
 }
 
-.Page > .ImageWrapper
+.Page > .TextWrapper > .ImageWrapper
 {
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1300px) {
     .Content > .Section > .Page
     {
         width: 80%;
         margin-left: 10%;
         text-align: justify;
     }
-    .Page > .Text > h2
+    .ProfileImage
     {
-        font-size: 1.2em;
+        width: 25vw
+    }
+}
+
+@media (max-width: 650px) {
+    .TextWrapper
+    {
+        flex-flow: column;
+    }
+    .ImageWrapper
+    {
+        display: flex;
+        justify-content: center;
+    }
+    .ProfileImage
+    {
+        width: 50vw
     }
 }
 
@@ -111,9 +135,9 @@
     width: 40%;
     background-color: white;
     color: #72a7fc;
+    margin: 0;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 10vh;
     padding: 10px;
     border: 1px solid gray;
 }
@@ -135,7 +159,7 @@
     flex-wrap: wrap;
     width: 80%;
     justify-content: space-around;
-    min-height: 20h;
+    min-height: 20vh;
 }
 
 .Page > h1
@@ -143,4 +167,9 @@
     font-weight: bolder;
     font-size: 3em;
     text-align: center;
+}
+
+.TextWrapper
+{
+    display: flex;
 }

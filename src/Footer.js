@@ -11,7 +11,6 @@ class Footer extends React.Component {
     {
         return(
             <div className="Footer" ref={this.props.refs[3]}>
-                <h1> Contact </h1>
                 <h2>Location </h2>
                 <h3> Paris, 75017, France</h3>
                 <h2> Around the web </h2>

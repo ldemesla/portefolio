@@ -1,5 +1,7 @@
-body {
+body, html {
+  min-width: 350px;
   margin: 0;
   padding: 0;
+  background-color:  #164987;;
 }
 

@@ -23,18 +23,6 @@ class Content extends React.Component {
     render () {
         return (
             <div className="Content">
-                <div className="Section" ref={this.props.refs[0]}>
-                    <div className="Page">
-                        <div className="ImageWrapper">
-                            <img className="ProfileImage" src={ldemesla}></img>
-                        </div>
-                        <div className="Text">
-                            <h1> About me </h1>
-                            <h2>Hello, I'm Louis, I'm a software engineer student. After three years at the University of Toulouse in Economics and couple more years travelling arround: Autralia (where I have learned English), Senegal, Mexico... I have decided to join the 42 school in Paris, and this website aims to show you some of my meaningful projects and my skills in general.</h2>
-                            <h2> I am currently looking for an internship / part-time / full-time so if are interested by my profil you are welcome to contact me on Linkedin or by mail.</h2>
-                        </div>
-                    </div>
-                </div>
                 <div className="Projects" ref={this.props.refs[1]}>
                     <h1> Projects </h1>
                     <Carousel/>
@@ -53,6 +41,20 @@ class Content extends React.Component {
                             <SkillImage logo={cpp} name="C++" grade="90%"/>
                             <SkillImage logo={react} name="ReactJs" grade="30%"/>
                             <SkillImage logo={linux} name="Linux" grade="60%"/>
+                        </div>
+                    </div>
+                </div>
+                <div className="Section" ref={this.props.refs[0]}>
+                    <div className="Page">
+                        <div className="Text">
+                            <h1> About me </h1>
+                            <div className="TextWrapper">
+                                <div className="ImageWrapper">
+                                    <img className="ProfileImage" src={ldemesla}></img>
+                                </div>
+                                <h3>Hello, I'm Louis, I'm a software engineer student. After three years at the University of Toulouse in Economics and couple more years travelling arround: Autralia (where I have learned English), Senegal, Mexico... I have decided to join the 42 school in Paris, and this website aims to show you some of my meaningful projects and my skills in general.
+                                I am currently looking for an internship / part-time / full-time so if are interested by my profil you are welcome to contact me on Linkedin or by mail.</h3>
+                            </div>
                         </div>
                     </div>
                 </div>
