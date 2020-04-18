@@ -58,7 +58,13 @@
 @media (max-width: 1000px) {
     .Icons
     {
-        width: 100%;
+        width: 70%;
         margin-left: 0;
+        margin-left: 15%;
+    }
+    .Footer > h1 
+    {
+        width: 60%;
+        margin-left: 20%;
     }
 }
