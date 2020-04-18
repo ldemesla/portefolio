@@ -53,6 +53,10 @@
     {
         display: none
     }
+    .NavBar
+    {
+        position: absolute;
+    }
 }
 
 .Icons > *:hover
