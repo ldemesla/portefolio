@@ -99,9 +99,9 @@
         margin-left: 10%;
         text-align: justify;
     }
-    .Page > h3 
+    .Page > .Text > h2
     {
-        font-size: 0.5em;
+        font-size: 1.2em;
     }
 }
 
