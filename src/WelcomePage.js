@@ -10,11 +10,11 @@ class WelcomePage extends React.Component {
         super(props);
     }
     render () {
-        var refs = [React.createRef(), React.createRef(), React.createRef()]
+        var refs = [React.createRef(), React.createRef(), React.createRef(), React.createRef()]
         return (<div className="WelcomePage">
             <NavBar refs={refs}/>
             <Content refs={refs}/>
-            <Footer />
+            <Footer refs={refs}/>
         </div>
         );
     }

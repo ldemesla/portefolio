@@ -10,7 +10,11 @@ class Footer extends React.Component {
     render()
     {
         return(
-            <div className="Footer">
+            <div className="Footer" ref={this.props.refs[3]}>
+                <h1> Contact </h1>
+                <h2>Location </h2>
+                <h3> Paris, 75017, France</h3>
+                <h2> Around the web </h2>
                 <div className="Icons">
                     <GitHubIcon onClick={()=>{ window.open("https://github.com/ldemesla")}}/>
                     <LinkedInIcon onClick={()=>{ window.open("https://www.linkedin.com/in/louis-demeslay-b7b19118b/")}}/>
