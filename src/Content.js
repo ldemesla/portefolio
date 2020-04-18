@@ -52,7 +52,7 @@ class Content extends React.Component {
                                 <div className="ImageWrapper">
                                     <img className="ProfileImage" src={ldemesla}></img>
                                 </div>
-                                <h3>Hello, I'm Louis, I'm a software engineer student. After three years at the University of Toulouse in Economics and couple more years travelling arround: Autralia (where I have learned English), Senegal, Mexico... I have decided to join the 42 school in Paris, and this website aims to show you some of my meaningful projects and my skills in general.
+                                <h3>Hello, I'm Louis, I'm a software engineer student. After three years at the University of Toulouse in Economics and couple more years travelling arround: Australia (where I have learned English), Senegal, Mexico... I have decided to join the 42 school in Paris, and this website aims to show you some of my meaningful projects and my skills in general.
                                 I am currently looking for an internship / part-time / full-time so if are interested by my profil you are welcome to contact me on Linkedin or by mail.</h3>
                             </div>
                         </div>
