@@ -2,6 +2,7 @@ import React from 'react';
 import cube from "./assets/cube_screen.png"
 import nn from "./assets/nn.png"
 import minishell from "./assets/minishell.png"
+import pong from "./assets/pong.gif"
 import wbr from "./assets/webserver.png"
 import "./Carousel.css"
 
@@ -13,6 +14,7 @@ class Carousel extends React.Component
         var ml = "Multilayer-perceptron is a neural network, implemented without using machine learning libraries like Tensorflow, Keras or PyTorch. This convolutional neural network (or CNN) aim to predict if a breast cancer is benign or malignant. The dataset used was elaborated by the University of Wisconsin in 1995, it give us for a large number of patients their breast cancer diagnosis and a list of 30 features describing the characteristics of a cell nucleus of breast mass extracted with fine-needle aspiration "
         var mn = "Minishell is a shell (command terminal) implementation with build-in methods like echo, cd, pwd, export, unset, env, exit. The shell support the pipes, the redirections, the environments variables but also handles quotes and Ctrl-C, Ctr-D, Ctrl-\\"
         var wb= "Webserver is a from-scratch HTTP-1.1 conditionnaly compliant server. You can run any type of websites on the server. It handles simultaneous server, most of the http headers, gzip response / request, chunked response / request and HTTPS. The server and the routing is fully configurable through a nginx inspired configuration file."
+        var pg= "Pong Tournamnet is a SPA writte in javascript (Backbone.js) for the frontend and Ruby on Rails for the backend. This is a website for pong competitions, with personnalisable user profiles, chat and chatrooms, guilds, wars, tournaments, admins... It's also secured with Google 2FA, and loging is made using the 42 intranet oauth system, which mean only 42 users can access the website.";
         return (
         <div className="Carousel">
             <div className="Card">
@@ -49,6 +51,15 @@ class Carousel extends React.Component
                 <div className="Text">
                     <h1> MINISHELL <span style={{color: "gray"}}> C </span></h1>
                     <h3>{mn}</h3>
+                </div>
+            </div>
+            <div className="Card">
+                <div className="ImageDiv">
+                    <img src={pong}></img>
+                </div>
+                <div className="Text">
+                    <h1> Pong Tournament <span style={{color: "gray"}}> Backbone.js / Ruby on Rails </span></h1>
+                    <h3>{pg}</h3>
                 </div>
             </div>
         </div>
